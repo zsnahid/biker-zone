@@ -18,16 +18,16 @@
 
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                'orange-primary': '#E76F51',
-                'orange-secondary': 'rgba(231, 111, 81, 0.1)',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        'orange-primary': '#E76F51',
+                        'orange-secondary': 'rgba(231, 111, 81, 0.1)',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 
     <style>
         .poppins-regular {
@@ -78,9 +78,85 @@
         </nav>
 
         <!-- banner -->
-        
+        <div class="carousel w-full mt-12 rounded-md">
+            <!-- slide 1 -->
+            <div id="slide1" class="carousel-item relative w-full box-border bg-orange-secondary p-28">
+                <div class="grid grid-cols-2 items-center">
+                    <!-- text -->
+                    <div class="space-y-6">
+                        <h1 class="text-6xl font-bold">
+                            Ride-on R15 V4 <br> with Smile
+                        </h1>
+                        <p  class="font-light w-4/5">
+                            Amet minim mollit non deserunt ullamco
+                            est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                        <button class="btn bg-orange-primary text-white font-semibold text-xl">Purchase</button>
+                    </div>
 
+                    <!-- image -->
+                    <div>
+                        <img src="./images/slider/bike1.png" alt="" class="mx-auto">
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
 
+            <!-- slide 2 -->
+            <div id="slide2" class="carousel-item relative w-full box-border bg-orange-secondary p-28">
+                <div class="grid grid-cols-2 items-center">
+                    <!-- text -->
+                    <div class="space-y-6">
+                        <h1 class="text-6xl font-bold">
+                            Ride-on R15 V4 <br> with Smile
+                        </h1>
+                        <p  class="font-light w-4/5">
+                            Amet minim mollit non deserunt ullamco
+                            est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                        <button class="btn bg-orange-primary text-white font-semibold text-xl">Purchase</button>
+                    </div>
+
+                    <!-- image -->
+                    <div>
+                        <img src="./images/slider/bike2.png" alt="" class="mx-auto">
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+            <!-- slide 3 -->
+            <div id="slide3" class="carousel-item relative w-full box-border bg-orange-secondary p-28">
+                <div class="grid grid-cols-2 items-center">
+                    <!-- text -->
+                    <div class="space-y-6">
+                        <h1 class="text-6xl font-bold">
+                            Ride-on R15 V4 <br> with Smile
+                        </h1>
+                        <p  class="font-light w-4/5">
+                            Amet minim mollit non deserunt ullamco
+                            est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                        <button class="btn bg-orange-primary text-white font-semibold text-xl">Purchase</button>
+                    </div>
+
+                    <!-- image -->
+                    <div>
+                        <img src="./images/slider/bike3.png" alt="" class="mx-auto">
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
     </header>
 
 
